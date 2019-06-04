@@ -1,0 +1,6 @@
+{
+    "emailHost":"http://chisel.cloudjiffy.net/email",
+    "to":"capitalch@gmail.com",
+    "subject": "Mail from Nav Technology",
+    "hitCountUrl":"https://chisel.cloudjiffy.net/tools/analytics/hitcount/navtechnology.com"
+}

@@ -1,0 +1,23 @@
+.container {
+    display: grid;
+    grid-template-areas:
+    'header' 'main' 'footer';
+    grid-template-rows: minmax(50px,auto) 1fr minmax(20px,3vh);
+
+    .header {
+        grid-area: header;
+        font-weight: bold;
+    }
+    
+    .main {
+        grid-area: main;
+        min-height:88vh;
+        background: yellow;
+    }
+    
+    .footer {
+        grid-area: footer;
+        background: #343a40;
+        color: white;
+    }
+}

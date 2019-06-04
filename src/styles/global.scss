@@ -1,0 +1,10 @@
+.home-page-container {
+    .carousel-container { 
+        @media screen and (max-width: 490px) {
+        display: none;
+        }
+    }
+    .content-container{
+        
+    }
+}
