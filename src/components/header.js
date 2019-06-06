@@ -1,10 +1,12 @@
 import React from "react";
 import { Link } from "gatsby"
 import headerStyles from './header.module.scss';
+import {imageProcessor} from "../hooks/image-processor-hook";
 import {Navbar,Nav} from "react-bootstrap";
 
 
 const Header = () => {
+    const logo = imageProcessor("logo","fixed"); 
     return <React.Fragment>
             <Navbar expand="lg" className={headerStyles.menu}>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -17,7 +19,7 @@ const Header = () => {
               </Navbar.Collapse>
             </Navbar>
             <div className={headerStyles.brandContainer}>
-              Nav Technology
+              {logo}
             </div>
           </React.Fragment>
           
