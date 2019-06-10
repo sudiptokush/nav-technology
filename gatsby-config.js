@@ -25,8 +25,15 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `carousel`,
+        name: `logo`,
         path: `${__dirname}/src/gallery/logo`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `category`,
+        path: `${__dirname}/src/gallery/category`,
       },
     },
     `gatsby-transformer-sharp`,

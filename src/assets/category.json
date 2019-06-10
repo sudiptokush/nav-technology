@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Camera",
+        "image": "camera"
+    },
+    {
+        "name": "Handycam",
+        "image": "handycam"
+    },
+    {
+        "name": "Playstation",
+        "image": "playstation"
+    },
+    {
+        "name": "LCD / LED TV",
+        "image": "tv"
+    },
+    {
+        "name": "Home Theatre", 
+        "image": "home-theatre"
+    },
+    {   
+        "name": "Headphone", 
+        "image": "headphone"
+    },
+    {
+        "name": "DVD Player",
+        "image": "dvd-player"
+    }
+]

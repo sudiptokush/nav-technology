@@ -2,10 +2,12 @@ import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import { useCarousel } from "../hooks/carousel-hook";
+import { useGallery } from "../hooks/gallery-hook";
 import seoJson from "../assets/seo.json";
 
 function IndexPage() {
   const Carousel = useCarousel();
+  const CategoryGallery = useGallery("category");
 
   return <Layout>
     <SEO title="Nav Technology Home" description={seoJson["decription"]} keywords={seoJson["keywords"]}/>
@@ -13,8 +15,8 @@ function IndexPage() {
       <div className="carousel-container">
         {Carousel}
       </div>
-      <div className="content-container">
-        Nav Technology
+      <div className="category-container">
+        {CategoryGallery}
       </div>
     </div>
   </Layout>
