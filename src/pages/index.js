@@ -15,6 +15,9 @@ function IndexPage() {
       <div className="carousel-container">
         {Carousel}
       </div>
+      <div className="header">SONY AUTHORIZED SERVICE CENTER</div>
+      <div className="sub-header">We provide repair and service for Cameras, Handycam, Playstations, LCD/LED televisions,
+                                  Home Theatres, Headphones, DVD Players </div>
       <div className="category-container">
         {CategoryGallery}
       </div>

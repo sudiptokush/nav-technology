@@ -6,6 +6,17 @@
         display: none;
         }
     }
+    .header{
+      text-align: center;
+      font-weight: bold;
+      margin: 4px;
+      background: #f5dcbb;
+    }
+    .sub-header{
+      text-align: center;
+      margin: 4px;
+      background: antiquewhite;
+    }
     .category-container {
         margin: 0 1rem;
         display: inline-block;
@@ -31,7 +42,7 @@
             right: 0;
           }
         }
-      }
+    }
 }
 // Home Page
 // ==============================================
