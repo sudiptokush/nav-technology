@@ -15,6 +15,7 @@ const Header = () => {
                   <Link to="/">Home</Link>
                   <Link to="/about">About</Link>
                   <Link to="/contacts/">Contacts</Link>
+                  <Link to="/gallery/">Gallery</Link>
                 </Nav>
               </Navbar.Collapse>
             </Navbar>
