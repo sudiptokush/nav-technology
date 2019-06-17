@@ -54,8 +54,8 @@ function useGallery(source: string) {
       }
       case "album":
       {
-        const temp = data[source].edges.map((x:any) => {
-          return <Img className="image" fixed= {x.node.childImageSharp.fixed}></Img>
+        const temp = data[source].edges.map((x:any, index:number) => {
+          return <Img key={index} className="image" fixed= {x.node.childImageSharp.fixed}></Img>
         });
         return <React.Fragment>{temp}</React.Fragment>
       }
