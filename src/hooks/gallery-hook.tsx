@@ -19,6 +19,20 @@ function useGallery(source: string) {
               }
             }
           }
+
+          album:
+          allFile(filter:{sourceInstanceName: {eq:"album"}}) {
+              edges {
+                node {
+                  name
+                  childImageSharp {
+                    fixed(height:350) {
+                      ...GatsbyImageSharpFixed
+                    }
+                  }
+                }
+              }
+            }
         }`;
 
     const data = useStaticQuery(gql);
@@ -35,6 +49,13 @@ function useGallery(source: string) {
               <Img fixed={allImages[j.image]}></Img>
               <div className="name">{j.name}</div>
           </div>
+        });
+        return <React.Fragment>{temp}</React.Fragment>
+      }
+      case "album":
+      {
+        const temp = data[source].edges.map((x:any) => {
+          return <Img className="image" fixed= {x.node.childImageSharp.fixed}></Img>
         });
         return <React.Fragment>{temp}</React.Fragment>
       }

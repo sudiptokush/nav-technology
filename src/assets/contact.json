@@ -1,0 +1,23 @@
+[
+    {
+        "name":"Kamalika Roy",
+        "designation":"Public Relation Officer (Director)",
+        "mobile":"9163055161",
+        "email":"",
+        "image":"Kamalika-Roy"
+    },
+    {
+        "name":"Pulak Das",
+        "designation":"Sales manager",
+        "mobile":"9831238615",
+        "email":"",
+        "image":"Pulak-Das"
+    },
+    {
+        "name":"Tapashi Chakraborty",
+        "designation":"Canon product consultant",
+        "mobile":"7980331281",
+        "email":"",
+        "image":"Tapashi-Chakraborty"
+    }
+]

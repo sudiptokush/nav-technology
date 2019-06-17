@@ -36,6 +36,13 @@ module.exports = {
         path: `${__dirname}/src/gallery/category`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `album`,
+        path: `${__dirname}/src/gallery/album`,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

@@ -114,3 +114,16 @@
   }
   // Contact Page
   // ==============================================
+
+  // Gallery Page
+  // ==============================================
+
+  .album-container {
+    margin: 2rem 8rem;
+    @media screen and (max-width: 490px) {
+      margin: 1rem 1.5rem;
+    }
+    .image {
+      margin: 1rem 1rem;
+    }
+  }
