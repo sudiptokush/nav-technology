@@ -59,11 +59,11 @@
       float:left;
       width:47%;
       min-width: 350px;
-      height: 500px;
+      height: 300px;
+      overflow: hidden;
       box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
-      margin: 0 4rem 2rem 0;
       div {
-        padding: 1.5rem;
+        padding: .5rem;
         .highlight {
           font-weight: bold;
         }
@@ -77,8 +77,9 @@
       float: left;
       width:47%;
       min-width:350px;
-      height: 500px;
+      height: 510px;
       padding: 1rem;
+      margin: 0 2rem 0 0;
       box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
       .contact-table {
         width: 100%;
@@ -111,21 +112,63 @@
         }
       }
     }
-  }
-  // Contact Page
-  // ==============================================
-
-  // Gallery Page
-  // ==============================================
-
-  .album-container {
-    margin: 2rem 8rem;
-    padding: 15px;
-    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
-    @media screen and (max-width: 490px) {
-      margin: 1rem 1.5rem;
+    .contact-person-container {
+      margin: 0 0 1rem 0;
+      display: inline-block;
+      width:47%;
+      min-width: 350px;
+      @media screen and (max-width: 1004px) {
+        display: flex;
+      }
+      @media screen and (max-width: 972px) {
+        display: inline-block;
+        margin: 1rem 0 1rem 0;
+      }
+      .contact-person-tile {
+        margin: 0 1rem 0 0;
+        float:left;
+        .name {
+          text-align: center;
+          font-size: .8em;
+        }
+        .mobile {
+          text-align: center;
+          font-size: .8em;
+        }
+      }
     }
-    .image {
-      margin: 1rem 2rem;
-    }
+}
+// Contact Page
+// ==============================================
+
+
+
+
+// Gallery Page
+// ==============================================
+.album-container {
+  margin: 2rem 8rem;
+  padding: 15px;
+  box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+  @media screen and (max-width: 490px) {
+    margin: 1rem 1.5rem;
   }
+  .image {
+    margin: 1rem 2rem;
+  }
+}
+// Gallery Page
+// ==================================================
+
+
+// About Page
+// ===================================================
+.about-container {
+  margin: 2rem 8rem;
+  box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+  @media screen and (max-width: 490px) {
+    margin: 1rem 1.5rem;
+  }
+}
+// About Page
+

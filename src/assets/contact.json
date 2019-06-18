@@ -1,23 +1,23 @@
 [
     {
-        "name":"Kamalika Roy",
-        "designation":"Public Relation Officer (Director)",
-        "mobile":"9163055161",
+        "name":"Sk Ali Imam",
+        "designation":"Manager",
+        "mobile":"9831721892",
         "email":"",
-        "image":"Kamalika-Roy"
+        "image":"3"
     },
     {
-        "name":"Pulak Das",
-        "designation":"Sales manager",
-        "mobile":"9831238615",
+        "name":"Kakali Mukherjee",
+        "designation":"Receptionist",
+        "mobile":"",
         "email":"",
-        "image":"Pulak-Das"
+        "image":"9"
     },
     {
-        "name":"Tapashi Chakraborty",
-        "designation":"Canon product consultant",
-        "mobile":"7980331281",
+        "name":"Pradeep Ash",
+        "designation":"Chief Technician",
+        "mobile":"9831911188",
         "email":"",
-        "image":"Tapashi-Chakraborty"
+        "image":"12"
     }
 ]

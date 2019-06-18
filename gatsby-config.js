@@ -45,6 +45,13 @@ module.exports = {
         path: `${__dirname}/src/gallery/album`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `contact`,
+        path: `${__dirname}/src/gallery/contact`,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
