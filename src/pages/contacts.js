@@ -87,7 +87,7 @@ const Contacts = () => {
 			<div className="address-tile">
                 <div><span className="highlight">Address -</span> 130 A, Bagmari Road , Scheme VII-M, Near Bagmari Kabarsthan, Kolkata, West Bengal 700054 </div> 
                 <div><span className="highlight">Email -</span> navtcit@yahoo.com</div>
-                <div><span className="highlight">Phone -</span> 9831721892 </div> 
+                <div><span className="highlight">Phone -</span> 9831721892 / 9831785098 </div> 
 				<iframe title="location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.864199375542!2d88.38912691495979!3d22.58418188517678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02766e0d356f69%3A0x40e760832c69a029!2sNav+Technology+Pvt.+Ltd.!5e0!3m2!1sen!2sin!4v1560158643437!5m2!1sen!2sin"></iframe>
             </div>
 		</div>
